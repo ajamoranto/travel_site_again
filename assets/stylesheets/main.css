@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Asap+Condensed');
+* {
+  font-family: 'Asap Condensed', sans-serif;
+}
+
+#content {
+  background-color: black;
+}
+
+.card {
+  background-color: black;
+  margin: 0;
+}
+
+.card img {
+  width: 100%;
+  padding: 0;
+}
+
+.jumbotron {
+  background-image: url(../../assets/images/travel_hero.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+h3 {
+  text-align: center;
+}
+
+.bottom {
+  background-color: white;
+  padding-top: 1px;
+  padding-bottom: 20px;
+}
+
+@media screen and (max-width: 800px){
+  .bird {
+  display: none;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .bird, .population{
+  display: none;
+  }
+}
